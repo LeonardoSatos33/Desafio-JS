@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Medicamentos</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="./assets/css/estilos.css"/>
+          
+</head>
+<body>
+    <h1 style="color:crimson">Meus Medicamentos</h1>
+    <p id="item"><strong>Paciente: Leonardo Soi Sato Santos</strong></p>
+    <p><strong>Total de Medicamentos:</strong></p>
+    
+    <img src="../assets/img/agua.jpg"/>
+    <table>
+        <tr>
+            <td>
+                <strong>
+                    Medicamento &emsp;&emsp;
+                </strong>
+            </td>
+            <td>
+                <strong>
+                    &emsp;&emsp;&emsp;Preço
+                </strong>
+            </td>   
+        </tr>
+    </table>
+
+    <form>
+        <input id="medicamento" type="text" placeholder="Medicamento"/>
+        <input id="preço" type="number" placeholder="Preço"/>
+        <button type="submit" onclick="handleEnviar()">Incluir</button>
+    </form>
+    <p id="item"><strong> Meus Medicamentos</strong></p>
+    <ul id="lista">
+
+    </ul>
+    
+    <script src="assets/js/scripts.js">
+    </script>
+</body>
+</html>
